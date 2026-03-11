@@ -1,4 +1,4 @@
-package com.java.oops.strings;
+package com.java.oops;
 
 public class Customer {
  //state

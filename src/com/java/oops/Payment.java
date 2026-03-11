@@ -1,4 +1,4 @@
-package com.java.oops.strings;
+package com.java.oops;
 
 import java.time.LocalDate;
 
