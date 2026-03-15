@@ -17,6 +17,15 @@ public class CustomerMain {
         return customers;
     }
 
+    public static Orders[] getOrderFromString(String[]orderdata){
+        Orders[] order = new Orders[orderdata.length];
+        for (int index = 0 ; index < orderdata.length ; index++){
+            String[] split = orderdata[index].split(",");
+            Orders orders = new Orders(Integer.parseInt(split[0]),split[1],Byte.parseByte(split[2]),Float.parseFloat(split[3]));
+        }
+        return order;
+    }
+
 
 
     public static void main(String[] args){
@@ -33,6 +42,19 @@ public class CustomerMain {
                 "110,Vikram Das,Kolkata,9876543219"
         };
 
+        String[] orderData = {
+                "101,2026-03-01,3,10",
+                "102,2026-03-02,5,5",
+                "103,2026-03-03,2,0",
+                "104,2026-03-04,7,15",
+                "105,2026-03-05,4,8",
+                "106,2026-03-06,6,12",
+                "107,2026-03-07,1,0",
+                "108,2026-03-08,9,20",
+                "109,2026-03-09,3,5",
+                "110,2026-03-10,8,18"
+        };
+
 
         Customers[] customers = getCustomerFromString(customersdata);
         System.out.println("-----------------------------------------------------");
@@ -40,7 +62,10 @@ public class CustomerMain {
         for (Customers customer : customers){
             customer.displayCustomersDetails();
         }
+
+
     }
+
 
 
 
