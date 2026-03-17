@@ -12,9 +12,10 @@ public class Orders {
         this.noOfItems = noOfItems;
         this.discount = discount;
     }
-    public void displayOrderdetails(){
+    public void displayOrderDetails(){
         System.out.println("-----------------------------------------------------");
         System.out.printf("%-10s %-20s %-20s %-10s\n ", id, date, noOfItems,discount);
+
 
     }
 }

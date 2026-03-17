@@ -17,5 +17,6 @@ public class Customers {
     public void displayCustomersDetails() {
         System.out.println("-----------------------------------------------------");
         System.out.printf("%-10s %-20s %-20s %-10s\n ", id, name,address,phoneNo);
+
     }
 }

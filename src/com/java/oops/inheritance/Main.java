@@ -1,4 +1,4 @@
-package com.java.oops.inheritancepolymorphism;
+package com.java.oops.inheritance;
 
 public class Main {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.java.oops.inheritancepolymorphism;
+package com.java.oops.inheritance;
 
 public class Customer {
     String customerId;

@@ -1,7 +1,6 @@
-package com.java.oops.strings;
+package com.java.oops.arrays;
 
 public class Product {
-
     int id;
     String name;
     double maxRetailPrice;
@@ -14,9 +13,9 @@ public class Product {
         this.discountPercentage = discountPercentage;
     }
 
-    public void displayProductDetails() {
-        System.out.println("-----------------------------------------------------");
-        System.out.printf("%-10s %-20s %-20s %-10s\n ", id, name, maxRetailPrice, discountPercentage);
-
+    public void displayProductDetails(){
+        System.out.println("-----------------------------------------------------------------");
+        System.out.printf("%-8s %-15s %-20s %-5s \n", id, name, maxRetailPrice, discountPercentage);
     }
+
 }
