@@ -7,7 +7,7 @@ public class Television extends Product {
     String type;
 
     public Television(Float screenSize, String quality, String type) {
-        super("101", "Laptop", 65000.0, 10.5f);
+        super(101, "Laptop", 65000.0, 10.5f);
         this.screenSize = screenSize;
         this.quality = quality;
         this.type = type;

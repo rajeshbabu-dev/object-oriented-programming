@@ -5,14 +5,14 @@ public class ProductService {
         System.out.println("1");
         product.displayDetails();
     }
-    public void displayDetails(Laptop laptop) {
-        System.out.println("2");
-        laptop.displayDetails();
-
-
-    }
-    public void displayDetails(Television television) {
-        System.out.println("3");
-        television.displayDetails();
-    }
+//    public void displayDetails(Laptop laptop) {
+//        System.out.println("2");
+//        laptop.displayDetails();
+//
+//
+//    }
+//    public void displayDetails(Television television) {
+//        System.out.println("3");
+//        television.displayDetails();
+//    }
 }

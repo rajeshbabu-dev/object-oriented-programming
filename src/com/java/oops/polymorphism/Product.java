@@ -7,7 +7,8 @@ public class Product {
     double maxRetailPrice;
     float discountPercentage;
 
-    public Product(String number, String laptop, double maxRetailPrice, float discountPercentage) {
+
+    public Product() {
     }
 
     public Product(int id, String name, double maxRetailPrice, float discountPercentage) {
